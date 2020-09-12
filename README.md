@@ -1,10 +1,10 @@
 ---
 # Webpack, Babel 이용해서 React 초기 환경 셋팅하기
 1. 파일 초기화 시키기
-
+```
     mkdir app && cd app
     npm init -y
-
+```
 2. 바벨 설정
 바벨은 개발 단계에서만 사용하기 때문에 -D 옵션으로 devDependencites에 추가
 
@@ -177,7 +177,7 @@
     <div id="root"></div>
     </body>
     </html>
-    
+
 16. npm start로 어플리케이션 실행
 * 바벨 통해 es6 문법은 es5로 변환하고 웹팩 통해 하나의 파일(bundle.[hash].js)로 만들어서 브라우저에 띄어짐
  
